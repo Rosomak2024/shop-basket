@@ -1,9 +1,9 @@
-import shoppingPicture from "../../assets/dzik-logo.png"
+import shoppingPicture from "../assets/dzik-logo.png"
 
 function Logo() {
     return (
         <div>
-            <img src={shoppingPicture}></img>
+            <img src={shoppingPicture} alt="shopping picture"></img>
         </div>
     )
 }

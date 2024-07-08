@@ -1,9 +1,10 @@
-import React from 'react'
+import Products from "./Products"
 
 function Basket() {
+
     return (
         <div>
-
+            <Products></Products>
         </div>
     )
 }

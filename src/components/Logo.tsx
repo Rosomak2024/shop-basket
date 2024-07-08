@@ -3,7 +3,7 @@ import shoppingPicture from "../assets/dzik-logo.png"
 function Logo() {
     return (
         <div>
-            <img src={shoppingPicture} alt="shopping picture"></img>
+            <img className="logo" src={shoppingPicture} alt="shopping picture"></img>
         </div>
     )
 }
